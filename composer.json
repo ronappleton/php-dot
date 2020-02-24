@@ -1,0 +1,20 @@
+{
+    "name": "ronappleton/php-dot",
+    "description": "Set and get array values via dot notation.",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Ron Appleton",
+            "email": "ron.appleton@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=4"
+    },
+    "autoload": {
+        "psr-4": {
+            "RonAppleton\\Dot": "/"
+        }
+    }
+}
